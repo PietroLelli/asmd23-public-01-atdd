@@ -40,4 +40,20 @@ public class CalculatorSteps {
             throw new IllegalStateException();
         }
     }
+
+    @When("I divide {int} by {int}")
+    public void iDivideArgByArg(int arg0, int arg1) {
+        this.calculator.enter(arg0);
+        this.calculator.enter(arg1);
+        this.calculator.div();
+    }
+
+    @Then("the quotient should be {int}")
+    public void theQuotientShouldBeArg(int arg0) {
+        if (arg0 != this.calculator.getResult()) { // or using Junit's asserts
+            throw new IllegalStateException();
+        }
+
+    }
+
 }
