@@ -64,11 +64,11 @@ public class CalculatorStepDefinitions {
 The Gherkin code, substituting {firstNumber}, {secondNumber} and {expectedResult} turns out to be correct, but the step code is incorrect. With a few modifications, however, a working Java code can be obtained that can be integrated with the previously developed calculator implementation.
 
 ### Second request
->Create Gherkin specifications for the division to follow these conventions
-  Scenario:  Add two positive numbers
-    Given I have a Calculator
-    When I add 1 and 1
-    Then the sum should be 2
+>Create Gherkin specifications for the division to follow these conventions   
+     Scenario:  Add two positive numbers  
+       Given I have a Calculator  
+       When I add 1 and 1  
+       Then the sum should be 2
 ```
 Feature: Calculator Division
 
