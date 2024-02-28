@@ -1,5 +1,6 @@
 # Lab 01
 ## Task 1: Calculator
+I have experimented with Gherkin functionalities by implementing additions, subtractions, and multiplications, using also background and outline scenario types and applying the ATDD (Acceptance Test-Driven Development) approach.
 
 ## Task 2: ATDD-LLM
 LLMs/ChatGPT can arguably help in write/improve/complete/implement/reverse-engineer a Gherkin specification. Experiment with
