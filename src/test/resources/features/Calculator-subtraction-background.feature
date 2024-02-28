@@ -1,7 +1,7 @@
 Feature:  Subtracting numbers with a Calculator
   In order to not learn math
   As someone who is bad at math
-  I want to be able to add numbers using a Calculator
+  I want to be able to subtract numbers using a Calculator
 
   Background: Start with a Calculator
     Given I have a Calculator

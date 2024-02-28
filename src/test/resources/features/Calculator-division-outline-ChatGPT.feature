@@ -1,7 +1,7 @@
 Feature: Calculator Division
   In order to not learn math
   As someone who is bad at math
-  I want to be able to add numbers using a Calculator
+  I want to be able to divide numbers using a Calculator
 
   Scenario Outline: Divide two numbers
     Given I have a Calculator

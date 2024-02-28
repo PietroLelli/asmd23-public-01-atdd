@@ -1,7 +1,7 @@
 Feature:  Multiply numbers with a Calculator
   In order to not learn math
   As someone who is bad at math
-  I want to be able to add numbers using a Calculator
+  I want to be able to multiply numbers using a Calculator
 
   Scenario Outline: Multiply two numbers
     Given I have a Calculator
