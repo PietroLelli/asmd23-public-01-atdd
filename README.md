@@ -13,7 +13,7 @@ In this task, I used ChatGPT in order to add the Gherking specifications for div
 * For the first step i ask to ChatGPT this request:
 >I want to implement a Gherkin specification for a Java application. The application consists of a calculator that puts in two integer values and then obtains the result of the division.
 * The answer is:
-```
+```gherkin
 Feature: Calculator Division
 
   Scenario: Divide two numbers
@@ -23,7 +23,7 @@ Feature: Calculator Division
     And I press the divide button
     Then the result should be {expectedResult} on the screen
 ```
-```
+```java
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
@@ -69,7 +69,7 @@ The Gherkin code, substituting {firstNumber}, {secondNumber} and {expectedResult
        Given I have a Calculator  
        When I add 1 and 1  
        Then the sum should be 2
-```
+```gherkin
 Feature: Calculator Division
 
   Scenario: Divide two positive numbers
@@ -83,7 +83,7 @@ In this way, by passing previously developed specifications for addition to Chat
 ### Third request
 >Creates Gherkin specifications for divisions between two positive numbers, between two negative numbers and between a positive and a negative number.
 
-```
+```gherkin
 Scenario: Divide two positive numbers
     Given I have a Calculator
     When I divide 6 by 2
@@ -101,8 +101,9 @@ Scenario: Divide two positive numbers
 
 ```
 ### Fourth request
->Modify specifications to follow outline scenarios
-```
+> Modify specifications to follow outline scenarios
+
+```gherkin
 Feature: Calculator Division
 
   Scenario Outline: Divide two numbers
